@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anuphan', sans-serif;
+}
+header{
+    width: 100%;
+    height: 15vh;
+}
+main{
+    width: 100%;
+    height: 70vh;
+    background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    font-size: 1.2em;
+}
+ul{
+    display: flex;
+    padding-right: 100px;
+}
+nav {
+    display: flex;
+    justify-content: end;
+}
+li{
+    list-style-type: none;
+    margin-right: 30px;
+    color: green;
+}
+main p{
+    color: white;
+    font-size: 2.5em;
+    text-align: left;
+    width: 70%;
+    text-align: right;
+}
+.medio{
+    font-weight: bold;
+}
+.negrita{
+    font-size: 3em;
+    font-style: bold;
+}
+.dorado{
+    color: goldenrod;
+    font-size: 2em;
+    padding-top: 25px;
+}
+.header{
+    padding-top: 20px;
+}
+header img{
+    padding: 20px;
+    padding-left: 120px;
+}
+
